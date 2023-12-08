@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pun Generator</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--JQUERY LIBRARY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- FONTAWSOME -->
+  <script src="https://kit.fontawesome.com/df21ef76d6.js" crossorigin="anonymous"></script>
+
+  <!-- BOOTSTRAP CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="src/style/style.css">
+
+  <script src="src/js/main.js" defer></script>
+
+</head>
+
+<body class="bg-dark">
+  <div class="container" id="mainContainer">
+    
+    <!--end of top ul -->
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pun Generator</a>
+      </li>
+      
+    </ul><!-- end of nav tabs -->
+    <div class="p-1 mb-40 bg-dark rounded-3">
+      <div class="container-sm py-5 overflow-y-visible" id="qContainer">
+        <h1 class="display-5 fw-bold">
+          <p class="text-center" id="punQuestion">
+            Click button to generate a pun!
+          </p>
+        </h1>
+      </div><!-- end of Pun Question -->
+      <div class="container-sm py-5" id="aContainer">
+        <h1 class="display-5 fw-bold">
+          <p class="text-center" id="punAnswer">
+          </p>
+          <center>
+          <button class="btn btn-outline-danger btn-lg" style="display: none;" id="showAnswer" type="button">
+            I give up <i class="fa-solid fa-face-angry fa-2xl"></i>
+          </button>
+          </center>
+        </h1>
+      </div><!-- end of Pun Answer -->
+    </div><!-- end of jumbotron puns -->
+    <div class="p-1 mb-1 bg-gradient rounded-4" id="buttonContainer">
+      <div class="container-fluid py-5">
+        <h1 class="display-10 fw-bold">
+          <p class="text-center" id="puns">Tell me a pun</p>
+          <center>
+            <button class="btn btn-primary btn-lg rounded-circle p-5" type="button" id="punRefresh">
+              <i class="fa-solid fa-arrows-rotate fa-2xl"></i>
+            </button>
+          </center>
+        </h1>
+      </div>
+    </div><!-- end of button div-->
+    <div class="row">second row</div>
+    <!--end of second row -->
+  </div><!-- end of div container -->
+
+</body>
+</html>

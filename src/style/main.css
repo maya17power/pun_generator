@@ -1,0 +1,36 @@
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+  #mainContainer{
+    padding-top: 30px;
+    display: grid;
+    place-content: space-around-center;
+  }
+  #list{
+    padding-top: 5%;
+  }
+  .logo{
+    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+  }
+  .list{
+    height: 50%;
+    width: 100%;
+  }
+  #punButtonArea{
+    background-color: rgb(9, 10, 17,0.8);
+  }
+  p {
+    color: white;
+  }
+  #qContainer{
+    width: 450px;
+    height: 350px;
+  }
+  #aContainer{
+    width: 500px;
+    height: 200px;
+  }
