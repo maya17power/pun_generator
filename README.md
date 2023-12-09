@@ -2,7 +2,7 @@
 
 ## Overview
 
-This app was created for the Chingu Solo Project Requirement.
+This app was created to how the page in a static fashion.
 
 [Live Link](https://maya17power.github.io/chingu_soloproject/) - https://maya17power.github.io/chingu_soloproject/
 
