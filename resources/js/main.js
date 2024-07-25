@@ -18,11 +18,12 @@ window.onload = function() {
     }
     
     //on generate Pun button click 
-    punRefresh.onclick = function(){
-    punAnswer.innerHTML = "";
-      //hide the answer div
-    punAnswer.style.display = "none";
-    searchPun();
+    // punRefresh.onclick = function(){
+    // punAnswer.innerHTML = "";
+    //   //hide the answer div
+    // punAnswer.style.display = "none";
+    // searchPun();
+    alert('Pun API has been EOL :(')
     };
   
     function searchPun(){
