@@ -1,4 +1,5 @@
-{
+ [
+  {
     "puns": [
       {"id": 1, "pun": "I used to be a baker, but I couldn't make enough dough.", "answer": "I couldn't make enough dough."},
       {"id": 2, "pun": "I'm reading a book about anti-gravity. It's impossible to put down.", "answer": "It's impossible to put down."},
@@ -202,4 +203,5 @@
       {"id": 200, "pun": "Why did the bicycle fall over?", "answer": "Because it was two-tired."}
     ]
   }
+]
   
